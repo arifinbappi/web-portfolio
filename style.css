@@ -5,6 +5,12 @@ body{
 h1{
     font-size: 55px;
 }
+h2{
+    font-size: 45px;
+}
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: orange;
 }
@@ -15,12 +21,72 @@ h1{
     padding-left: 2%;
 }
 .div-1 img{
-    width: 100%;
+    width: 95%;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 section{
+    padding-bottom: 100px;
     height: 500px;
 }
+.p-1{
+    padding-bottom: 15px;
+}
+.button-style-1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,orange,red);
+    color: white;
+    padding: 10px 28px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button-style-2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,orange,red);
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.ami{
+    padding-top: 40px;
+}
+.p-2{
+    padding-bottom: 25px;
+}
+.mid-banner{
+    background-image: url(images/image-4.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 65%;
+    background-color: white;
+}
+.last-banner{
+    background-image: url(images/image-5.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#id-1{
+    border-left: 8px solid ;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+}
+#id-2{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}.exp{
+    margin-left: 25px;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
